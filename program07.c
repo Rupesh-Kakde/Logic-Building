@@ -1,0 +1,46 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Function name : Display
+//  Input :         int
+//  Output :        None
+//  Description :   Accept one number and print that many '*' symbols
+//                  on the screen using while loop and decrement updater.
+//  Date :          24/05/2026
+//  Author :        Rupesh Suresh Kakde
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+#include <stdio.h>
+
+void Display(int iNo)
+{
+    
+    while(iNo > 0)
+    {
+        printf("* ");
+        iNo--;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter number : ");
+    scanf("%d", &iValue);
+
+    Display(iValue);
+
+    return 0;
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////
+//
+//  input  : 5
+//  output : * * * * *
+//
+//////////////////////////////////////////////////////////////////////////////////
